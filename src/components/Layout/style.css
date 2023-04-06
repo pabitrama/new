@@ -1,0 +1,26 @@
+.main_div{
+    z-index: 1000;
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    background-color: green;
+    margin-top: 215px;
+    align-items: center;
+}
+.main_div .headingC{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 10px;
+}
+@media screen and (max-width: 768px) {
+    /* .main_div{
+        width: 69%;
+    } */
+    .main_div .headingC{
+        font-size: 14px;
+        padding-top: 10px;
+        text-align: start;
+        /* padding-left: 50px; */
+    }
+}
