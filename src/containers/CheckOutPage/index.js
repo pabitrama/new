@@ -14,17 +14,18 @@ import confirm from "../../images/confirm.gif";
 import {
   Anchor,
   MaterialButton,
-  MaterialInput,
+  // MaterialInput,
 } from "../../components/MaterialUi";
-import PriceDetails from "../../components/PriceDetails";
+// import PriceDetails from "../../components/PriceDetails";
 import Card from "../../components/UI/Card";
 import CartPage from "../CartPage";
-import Razorpay from "razorpay";
+// import Razorpay from "razorpay";
 import axios from "axios";
 import AddressForm from "./AddressForm";
-import { FaRubleSign, FaRupeeSign } from "react-icons/fa";
+import { FaRupeeSign } from "react-icons/fa";
+// import { FaRubleSign, FaRupeeSign } from "react-icons/fa";
 import "./style.css";
-import CardPayment from "./PaymentRazorpay";
+// import CardPayment from "./PaymentRazorpay";
 import { confirmAlert } from 'react-confirm-alert';
 import 'react-confirm-alert/src/react-confirm-alert.css';
 
@@ -150,7 +151,7 @@ const CheckOutPage = (props) => {
   const [confirmAddress, setConfirmAddress] = useState(false);
   const [selectedAddress, setSelectedAddress] = useState(null);
   const cart = useSelector((state) => state.cart);
-  const [cartItems, setCartItems] = useState(cart.cartItems);
+  // const [cartItems, setCartItems] = useState(cart.cartItems);
   const [orderSummary, setOrderSummary] = useState(false);
   const [orderConfirmation, setOrderConfirmation] = useState(false);
   const [paymentOption, setPaymentOption] = useState(false);

@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 // import authSvg from "../../../assests/forget.svg";
 import { ToastContainer, toast } from "react-toastify";
-import { Redirect, Route } from "react-router-dom";
+// import { Redirect, Route } from "react-router-dom";
 import "react-toastify/dist/ReactToastify.css";
 import { useDispatch, useSelector } from "react-redux";
 import { checkPassword, changePasswordPage, signout } from "../../actions";
@@ -16,15 +16,15 @@ const ResetPassword = ({ history }) => {
 
   const changePassword = useSelector((state) => state.changePassword);
 
-  const { status, changedPass, checkedPass } = changePassword;
-
+  // const { status, changedPass, checkedPass } = changePassword;
+  const { status } = changePassword;
   const auth = useSelector((state) => state.auth);
   const { email } = auth.user;
   const [inputNewPass, setInputNewPass] = useState("");
   const [changePass, setChangePass] = useState("");
   const [confirmPass, setConfirmPass] = useState("");
 
-  const [redirect, setRedirect] = useState(false);
+  // const [redirect, setRedirect] = useState(false);
 
   useEffect(() => {
     console.log(status, "status");

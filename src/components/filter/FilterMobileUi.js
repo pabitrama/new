@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import { Redirect } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { GiSettingsKnobs } from "react-icons/gi";
-import { MdSort, MdPlace } from "react-icons/md";
+import { MdSort } from "react-icons/md";
 import { GrClose } from "react-icons/gr";
 import { filterProducts, sortingProducts, getOrdersByPin } from "../../actions";
 

@@ -2,13 +2,13 @@
 
 import React, { useEffect, useState } from "react";
 import "./style.css";
-import flipkartLogo from "../../images/logo/flipkart.png";
-import goldenStar from "../../images/logo/golden-star.png";
+// import flipkartLogo from "../../images/logo/flipkart.png";
+// import goldenStar from "../../images/logo/golden-star.png";
 import {
   IoIosArrowDown,
-  IoIosCart,
-  IoIosLogIn,
-  IoIosPeople,
+//   IoIosCart,
+//   IoIosLogIn,
+//   IoIosPeople,
   IoIosSearch,
 } from "react-icons/io";
 import logo from "../../images/logo/logo.png";
@@ -26,7 +26,7 @@ import {
   signout,
   signup as _signup,
 } from "../../actions";
-import MenuHeader from "../MenuHeader";
+// import MenuHeader from "../MenuHeader";
 import Cart from "../UI/Cart";
 import { BiUserCircle } from "react-icons/bi";
 import { Input } from "@material-ui/core";

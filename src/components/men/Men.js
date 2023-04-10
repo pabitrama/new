@@ -4,7 +4,8 @@ import '../filter/filter.css';
 import FilterSortingBar from '../filter/FilterSortingBar';
 // import Filter from '../filter/Filter';
 import SortingMobile from '../../components/filter/SortingMobile';
-import { Checkbox, Radio, RadioGroup, FormControlLabel } from '@material-ui/core';
+// import { Checkbox, Radio, RadioGroup, FormControlLabel } from '@material-ui/core';
+import { Checkbox } from '@material-ui/core';
 
 const Filter = () => {
     let TshirtCategories = [

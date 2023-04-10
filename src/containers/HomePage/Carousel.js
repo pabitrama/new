@@ -1,14 +1,14 @@
 import React from 'react';
-import item1 from '../../images/3.png';
-import item2 from '../../images/2.png';
-import item3 from '../../images/3.png';
-import item4 from '../../images/logo/bag2.jpg';
-import item5 from '../../images/2.png';
-import item6 from '../../images/3.png';
-import item7 from '../../images/logo/bag2.jpg';
-import item8 from '../../images/2.png';
-import item9 from '../../images/3.png';
-import item10 from '../../images/logo/bag2.jpg';
+// import item1 from '../../images/3.png';
+// import item2 from '../../images/2.png';
+// import item3 from '../../images/3.png';
+// import item4 from '../../images/logo/bag2.jpg';
+// import item5 from '../../images/2.png';
+// import item6 from '../../images/3.png';
+// import item7 from '../../images/logo/bag2.jpg';
+// import item8 from '../../images/2.png';
+// import item9 from '../../images/3.png';
+// import item10 from '../../images/logo/bag2.jpg';
 import Carousel  from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 

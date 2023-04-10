@@ -1,7 +1,7 @@
 /** @format */
 
 import React, { useEffect, useState } from "react";
-import { alpha, makeStyles } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import IconButton from "@material-ui/core/IconButton";
@@ -10,7 +10,7 @@ import Badge from "@material-ui/core/Badge";
 import MenuItem from "@material-ui/core/MenuItem";
 import Menu from "@material-ui/core/Menu";
 import MenuIcon from "@material-ui/icons/Menu";
-import SearchIcon from "@material-ui/icons/Search";
+// import SearchIcon from "@material-ui/icons/Search";
 // import AccountCircle from '@material-ui/icons/AccountCircle';
 import {
   FavoriteBorderOutlined,
@@ -21,7 +21,7 @@ import { Link, NavLink } from "react-router-dom";
 import { FaRegUser } from "react-icons/fa";
 import logo from "../../images/logo/logo.png";
 import Login from "../Login";
-import GoogleLogin from "react-google-login";
+// import GoogleLogin from "react-google-login";
 import {
   Modal,
   MaterialInput,
@@ -37,9 +37,9 @@ import {
   signout,
   signup as _signup,
 } from "../../actions";
-import { red } from "@material-ui/core/colors";
-import { generatePublicUrl } from "../../urlConfig";
-import zIndex from "@material-ui/core/styles/zIndex";
+// import { red } from "@material-ui/core/colors";
+// import { generatePublicUrl } from "../../urlConfig";
+// import zIndex from "@material-ui/core/styles/zIndex";
 // import MenuHeader from "../MenuHeader";
 // import Cart from "../UI/Cart";
 
@@ -106,7 +106,6 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: "520px",
     [theme.breakpoints.up("md")]: {
       display: "flex",
-      color: "#696e79",
       color:"crimson",
     },
   },

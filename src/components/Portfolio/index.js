@@ -9,19 +9,19 @@ import banner1 from "../../images/logo/banner-3.jpg";
 // import banner2 from "../../images/logo/women-banner.jpg";
 import banner3 from "../../images/leaf1.jpeg";
 import {
-  FaArrowRight,
+  // FaArrowRight,
   FaBuilding,
   FaClock,
   FaEnvelope,
-  FaFacebook,
-  FaFacebookF,
-  FaFacebookSquare,
-  FaGlobe,
-  FaInstagramSquare,
+  // FaFacebook,
+  // FaFacebookF,
+  // FaFacebookSquare,
+  // FaGlobe,
+  // FaInstagramSquare,
   FaPhone,
-  FaRocket,
-  FaTwitterSquare,
-  FaYoutubeSquare,
+  // FaRocket,
+  // FaTwitterSquare,
+  // FaYoutubeSquare,
 } from "react-icons/fa";
 
 // var Carousel = require("react-responsive-carousel").Carousel;

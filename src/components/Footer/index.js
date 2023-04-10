@@ -1,7 +1,7 @@
 import React from 'react'
 import './footer.css';
-import { Instagram, Mail, Facebook, Twitter, YouTube } from '@material-ui/icons';
-import { Container, Row, Col } from 'react-bootstrap';
+// import { Instagram, Mail, Facebook, Twitter, YouTube } from '@material-ui/icons';
+// import { Container, Row, Col } from 'react-bootstrap';
 /**
 * @author
 * @function Footer
